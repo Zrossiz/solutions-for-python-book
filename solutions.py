@@ -52,3 +52,17 @@ import math
 #     print(len(arr_of_strings))
 
 # get_words_in_string('Тут должно быть 5 слов')
+
+# Получить количество слов, которые начинаются с одной буквы
+# def get_count_words_with_same_symbol(sentence: str):
+#     sentence_arr = sentence.lower().split(' ')
+#     first_symbol_of_every_word = {}
+#     for word in sentence_arr:
+#         first_symbol_of_every_word[word[0]] = 0
+#     for word in sentence_arr:
+#         if word[0] in first_symbol_of_every_word:
+#             first_symbol_of_every_word[word[0]] = first_symbol_of_every_word[word[0]] + 1
+#     print(max(first_symbol_of_every_word.values()))
+
+# get_count_words_with_same_symbol('Тестовое предложение один два три дд дд дд')
+
