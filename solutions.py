@@ -66,3 +66,16 @@ import math
 
 # get_count_words_with_same_symbol('Тестовое предложение один два три дд дд дд')
 
+# Решить уравнение
+# def solution(x: int):
+#     y = 3 * x**3 + math.cos(x + 1)
+#     print('Решение: ', y)
+
+# solution(1)
+
+#Решить уравнение
+# def solution(x: int, a: int, b: int):
+#     y = 2 * a * math.sqrt(x + 2) + b * (x + 1)
+#     print('Решение: ', y)
+
+# solution(4, 2, 1)
