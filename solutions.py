@@ -45,3 +45,10 @@ import math
 #     get_perimeter(a, b, hypotenuse)
 
 # get_info(3, 4)
+
+# Получить количество слов в строке
+# def get_words_in_string(string: str):
+#     arr_of_strings = string.split(' ')
+#     print(len(arr_of_strings))
+
+# get_words_in_string('Тут должно быть 5 слов')
