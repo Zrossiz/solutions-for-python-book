@@ -73,9 +73,30 @@ import math
 
 # solution(1)
 
-#Решить уравнение
+# Решить уравнение
 # def solution(x: int, a: int, b: int):
 #     y = 2 * a * math.sqrt(x + 2) + b * (x + 1)
 #     print('Решение: ', y)
 
 # solution(4, 2, 1)
+
+# Решить уравнение
+# def solution(x: int, a: int) -> int:
+#     y = (1 / (x**2 + 1)) - a
+#     print('Решение: ', y)
+#     return y
+
+# solution(3, 4)
+
+# Решить уравнение
+# def solution(x: int) -> int:
+#     y = (x - 2 * math.sin(x) / abs(8 * x - 5 * math.atan(3 * x + 1)))
+#     print('Решение: ', y)
+#     return y
+
+# Решить уравнение
+# def solution(x: int, b: int) -> int:
+#     y = (2 * math.sqrt(x**3 + 1)) - (2 * b)
+#     print('Решение: ', y)
+#     return y
+# solution(3, 4)
