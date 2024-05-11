@@ -1,4 +1,5 @@
 import math
+from typing import List
 
 # Найти объем и площадь поверхности прямоугольного параллелепипеда 
 # def get_v(a, b, c):
@@ -108,3 +109,11 @@ import math
 #     return c
 
 # from_f_to_c(572)
+
+# Конвертор валют из доллара в рубль
+# def exchange(rate: float, count: int) -> List[str]:
+#     rub = str(rate * count).split('.')
+#     print(f"{rub[0]} руб. {rub[1]} коп.")
+#     return rub
+
+# exchange(90.20, 4)
