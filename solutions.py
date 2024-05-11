@@ -95,8 +95,16 @@ import math
 #     return y
 
 # Решить уравнение
-# def solution(x: int, b: int) -> int:
+# def solution(x: int, b: int) -> float:
 #     y = (2 * math.sqrt(x**3 + 1)) - (2 * b)
 #     print('Решение: ', y)
 #     return y
 # solution(3, 4)
+
+# Перевести из F в градусы Цельсия
+# def from_f_to_c(f: int) -> float:
+#     c = (f - 32) * 5/9
+#     print('Температура в цельсиях: ', c)
+#     return c
+
+# from_f_to_c(572)
