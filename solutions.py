@@ -323,3 +323,14 @@ from typing import List
 #     print(result)
 
 # update_even_nums([1, 2, 3, 4, 5, 6, 7, 8], 4)
+
+# Найти минимальный элемент из элементов с четными номерами
+# def get_min_even_index(arr: list[int]):
+#     even_indices = []
+#     for index, num in enumerate(arr):
+#          if index % 2 == 0:
+#              even_indices.append(num)
+#     print(even_indices)
+#     print("Минимальное число из элементов с четным индексом:", min(even_indices))
+
+# get_min_even_index([10, 2, 11, 4, 5, 6, 7, 8, 9])
