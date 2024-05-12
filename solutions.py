@@ -117,3 +117,19 @@ from typing import List
 #     return rub
 
 # exchange(90.20, 4)
+
+# Решить уравнение
+# def solution(x: int, a: int) -> float:
+#     y = ((3 - a) / (x**2 + 1)) + math.sin(2 * x + 1)
+#     print("Решение: ", y)
+#     return y
+
+# solution(1, 1)
+
+# Решить уравнение
+def solution(x: int, a: int) -> float:
+    y = (a * x**3) + math.cos(3 * x + 1)
+    print("Решение: ", y)
+    return y
+
+solution(1, 2)
