@@ -312,3 +312,14 @@ from typing import List
 #     return result
 
 # get_sum_by_segments([1, 2, 3, 4, 5, 6, 7, 8], 5, 6)
+
+# Увеличить все четные числа на заданное число
+# def update_even_nums(arr: list[int], increase_num: int):
+#     result = []
+#     for index, num in enumerate(arr):
+#         if index % 2 == 0:
+#             num += increase_num
+#         result.append(num)
+#     print(result)
+
+# update_even_nums([1, 2, 3, 4, 5, 6, 7, 8], 4)
