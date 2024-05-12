@@ -1,4 +1,5 @@
 import math
+import datetime
 from typing import List
 
 # Найти объем и площадь поверхности прямоугольного параллелепипеда 
@@ -161,3 +162,13 @@ from typing import List
 #     print(result_string)
 
 # solution('а', 'ваб ва бв а', 'ТЕСТ')
+
+# По числу текущего месяца определить день недели
+# def get_day_of_week():
+#     cur_month = datetime.date.today().month
+#     if cur_month > 7:
+#         cur_month -= 7
+#     days_of_week = ["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"] 
+#     print(days_of_week[cur_month - 1])
+
+# get_day_of_week()
