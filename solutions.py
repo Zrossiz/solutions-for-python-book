@@ -204,14 +204,25 @@ from typing import List
 
 # get_the_declination_of_number(173)
 
-def get_wage(age: int, base_salary: int):
-    wage = base_salary
-    if age < 10 and age > 5:
-        wage = wage * 1.1
-    if age >= 10 and age <= 15:
-        wage = wage * 1.15
-    if age > 15:
-        wage = wage * 1.2
-    print("Wage: ", int(wage))
+# Рассчитать размер зп с учетом опыта работы
+# def get_wage(age: int, base_salary: int):
+#     wage = base_salary
+#     if age < 10 and age > 5:
+#         wage = wage * 1.1
+#     if age >= 10 and age <= 15:
+#         wage = wage * 1.15
+#     if age > 15:
+#         wage = wage * 1.2
+#     print("Wage: ", int(wage))
 
-get_wage(16, 10000)
+# get_wage(16, 10000)
+
+# Получить цвет радуги по первому слову
+# def get_color_of_rainbow(word: str):
+#     first_symbol_of_word = word[0].lower()
+#     rainbow_colors = ["красный", "оранжевый", "желтый", "зеленый", "голубой", "синий", "фиолетовый"]
+#     for color in rainbow_colors:
+#         if color[0] == first_symbol_of_word:
+#             print(color)
+
+# get_color_of_rainbow('Золотой')
