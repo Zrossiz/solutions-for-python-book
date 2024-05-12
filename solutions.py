@@ -367,3 +367,10 @@ from typing import List
 #     return sorted(odd_nums, reverse=True)
 
 # print("Упорядоченный список нечетных элементо:", get_sorted_odd_nums([1, 4, 2, 13, 6, 9, 0, 10, 8, 11]))
+
+# Вывести таблицу для товаров (от 1 до 10)
+# def get_cost_table():
+#     for num in range(1, 11):
+#         print(f"{num}: {round(num * 20.4, 1)}")
+
+# get_cost_table()
