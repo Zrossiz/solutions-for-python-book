@@ -334,3 +334,25 @@ from typing import List
 #     print("Минимальное число из элементов с четным индексом:", min(even_indices))
 
 # get_min_even_index([10, 2, 11, 4, 5, 6, 7, 8, 9])
+
+# Получить список с уникальными элементами
+# def get_uniq_nums_arr(arr: list[int]):
+#     uniq_arr = []
+#     for num in arr:
+#         if not num in uniq_arr:
+#             uniq_arr.append(num)
+#     print(uniq_arr)
+
+# get_uniq_nums_arr([1, 1, 2, 2, 2, 3, 4, 5])
+
+# Получить список с уникальными элементами
+# def get_uniq_nums_set(arr: list[int]):
+#     uniq_set = set()
+
+#     for num in arr:
+#         uniq_set.add(num)
+    
+#     print(uniq_set)
+
+# get_uniq_nums_set([1, 1, 2, 2, 2, 3, 4, 5])
+
