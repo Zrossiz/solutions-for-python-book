@@ -356,3 +356,14 @@ from typing import List
 
 # get_uniq_nums_set([1, 1, 2, 2, 2, 3, 4, 5])
 
+# Выбрать из списка все нечетные элементы и упорядочить их по убыванию
+# def get_sorted_odd_nums(arr: list[int]) -> list[int]:
+#     odd_nums = []
+
+#     for num in arr:
+#         if num % 2 != 0:
+#             odd_nums.append(num)
+#     print(odd_nums)
+#     return sorted(odd_nums, reverse=True)
+
+# print("Упорядоченный список нечетных элементо:", get_sorted_odd_nums([1, 4, 2, 13, 6, 9, 0, 10, 8, 11]))
