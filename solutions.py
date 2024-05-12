@@ -374,3 +374,10 @@ from typing import List
 #         print(f"{num}: {round(num * 20.4, 1)}")
 
 # get_cost_table()
+
+# Напечатать квадраты всех целых чисел от A до B с шагом N
+# def get_squares_of_numbers(A: int, B: int, N: int):
+#     for num in range(A, B + 1, N):
+#         print(f"{num}: {num**2}")
+
+# get_squares_of_numbers(0, 10, 2)
