@@ -1,5 +1,6 @@
 import math
 import datetime
+import random
 from typing import List
 
 # Найти объем и площадь поверхности прямоугольного параллелепипеда 
@@ -172,3 +173,21 @@ from typing import List
 #     print(days_of_week[cur_month - 1])
 
 # get_day_of_week()
+
+# Проверка на знание таблицы умножения
+# def check_multiplication_table_knowledge():
+#     print("Программа генерирует числа...")
+#     first_num = random.randint(1, 9)
+#     second_num = random.randint(1, 9)
+#     multiply = first_num * second_num
+
+#     print(f"Что будет результатом операции {first_num} * {second_num} ?")
+
+#     user_num = int(input("Введите ответ: "))
+
+#     if multiply == user_num:
+#         print("Правильно")
+#     else:
+#         print("Неправильно")
+
+# check_multiplication_table_knowledge()
