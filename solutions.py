@@ -237,3 +237,12 @@ from typing import List
 #         print(False)
 
 # is_armstrong_number(370)
+
+# Подсчитать сумму для заданного натурального n
+# def get_sum(n: int):
+#     sum = 0
+#     for number in range(1, n + 1):
+#         sum = sum + (1 / number)
+#     print(sum)
+
+# get_sum(10)
