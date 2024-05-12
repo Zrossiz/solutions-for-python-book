@@ -278,3 +278,13 @@ from typing import List
 #     return result
 
 # print('Сумма равна:', get_sum(5))
+
+# Посчитать стоимость конфет
+# def get_cost_for_candies(price: int):
+#     inital_weight = 1.2
+
+#     while inital_weight <= 2:
+#         print(f'Стоимость для {inital_weight} кг:', round(price * inital_weight))
+#         inital_weight = round(inital_weight + 0.2, 1)
+    
+# get_cost_for_candies(10)
