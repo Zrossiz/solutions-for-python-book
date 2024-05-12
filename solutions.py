@@ -203,3 +203,15 @@ from typing import List
 #         return print(amount, "рублей")
 
 # get_the_declination_of_number(173)
+
+def get_wage(age: int, base_salary: int):
+    wage = base_salary
+    if age < 10 and age > 5:
+        wage = wage * 1.1
+    if age >= 10 and age <= 15:
+        wage = wage * 1.15
+    if age > 15:
+        wage = wage * 1.2
+    print("Wage: ", int(wage))
+
+get_wage(16, 10000)
