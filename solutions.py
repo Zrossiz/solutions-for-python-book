@@ -142,3 +142,11 @@ from typing import List
 #     return print(total_price)
 
 # get_cost(50, 10, 100)
+
+# Написать программау для получения строки с обратной последовательностью слов
+# def get_reverse_string(sentence: str):
+#     arr_str = sentence.split()
+#     reverse_string = ' '.join(reversed(arr_str))
+#     return print(reverse_string)
+
+# get_reverse_string('Эта строка должна быть перевернута')
