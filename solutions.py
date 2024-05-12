@@ -246,3 +246,16 @@ from typing import List
 #     print(sum)
 
 # get_sum(10)
+
+# Подсчитать количество членов для суммы < 0 (арифметическая прогрессия)
+# def get_count_of_iterations():
+#     start_num = 7.1
+#     diff = 1.8
+#     result = []
+
+#     while start_num >= -diff:
+#         result.append(start_num)
+#         start_num -= diff
+#     print(f"Нужно {len(result)}")
+
+# get_count_of_iterations()
