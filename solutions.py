@@ -288,3 +288,15 @@ from typing import List
 #         inital_weight = round(inital_weight + 0.2, 1)
     
 # get_cost_for_candies(10)
+
+# Получить среднее арифметическое отрезка от K до L
+def get_average(arr: list[int], k: int, l: int) -> float:
+    index_k = arr.index(k)
+    index_l = arr.index(l)
+    arr_segment = arr[index_k:index_l + 1]
+    sum_segment = sum(arr_segment)
+    result = sum_segment / len(arr_segment)
+    print("Среднее арифметечское отрезка", result)
+    return result
+
+get_average([1, 2, 3, 4, 5, 6, 7, 8], 2, 6)
