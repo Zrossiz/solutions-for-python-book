@@ -226,3 +226,14 @@ from typing import List
 #             print(color)
 
 # get_color_of_rainbow('Золотой')
+
+# Является ли число числом Армстронга
+# def is_armstrong_number(number: int):
+#     string_number = str(number)
+#     sum_of_cubs_num = int(string_number[0])**3 + int(string_number[1])**3 + int(string_number[2])**3
+#     if number ==sum_of_cubs_num:
+#         print(True)
+#     else:
+#         print(False)
+
+# is_armstrong_number(370)
