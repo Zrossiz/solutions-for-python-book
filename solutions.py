@@ -259,3 +259,22 @@ from typing import List
 #     print(f"Нужно {len(result)}")
 
 # get_count_of_iterations()
+
+
+# Для заданного натурального n подсчитать сумму
+# def get_sum(n: int) -> int:
+#     if n == 0:
+#         return 1
+    
+#     result = 0
+#     for num in range(1, n + 1):
+
+#         buff = 1
+#         for num1 in range(1, num + 1):
+#             buff *= num1
+
+#         result += buff
+
+#     return result
+
+# print('Сумма равна:', get_sum(5))
