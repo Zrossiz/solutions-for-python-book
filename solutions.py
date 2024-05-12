@@ -150,3 +150,14 @@ from typing import List
 #     return print(reverse_string)
 
 # get_reverse_string('Эта строка должна быть перевернута')
+
+# Перед каждым вхождением символа C в строку S вставить строку S0
+# def solution(c: str, S: str, S0: str):
+#     result_string = ''
+#     for index, item in enumerate(S):
+#         if item == c:
+#             result_string += S0
+#         result_string += item
+#     print(result_string)
+
+# solution('а', 'ваб ва бв а', 'ТЕСТ')
