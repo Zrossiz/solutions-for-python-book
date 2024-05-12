@@ -191,3 +191,15 @@ from typing import List
 #         print("Неправильно")
 
 # check_multiplication_table_knowledge()
+
+# Получить склонение валюты
+# def get_the_declination_of_number(amount: int):
+#     if amount % 10 == 1 and amount % 100 != 11:
+#         return print(amount, "рубль")
+#     elif 2 <= amount % 10 <= 4 and (amount % 100 < 10
+#                                     or amount % 100 >= 20):
+#         return print(amount, "рубля")
+#     else:
+#         return print(amount, "рублей")
+
+# get_the_declination_of_number(173)
