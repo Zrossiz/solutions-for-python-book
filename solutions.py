@@ -127,9 +127,18 @@ from typing import List
 # solution(1, 1)
 
 # Решить уравнение
-def solution(x: int, a: int) -> float:
-    y = (a * x**3) + math.cos(3 * x + 1)
-    print("Решение: ", y)
-    return y
+# def solution(x: int, a: int) -> float:
+#     y = (a * x**3) + math.cos(3 * x + 1)
+#     print("Решение: ", y)
+#     return y
 
-solution(1, 2)
+# solution(1, 2)
+
+# Написать программу для вычисления стоимости поездки на дачу
+# def get_cost(distance: int, fuel: int, cost_per_liter: int):
+#     total_distance = distance * 2
+#     total_fuel = total_distance / fuel
+#     total_price = total_fuel * cost_per_liter
+#     return print(total_price)
+
+# get_cost(50, 10, 100)
