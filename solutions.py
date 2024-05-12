@@ -290,13 +290,25 @@ from typing import List
 # get_cost_for_candies(10)
 
 # Получить среднее арифметическое отрезка от K до L
-def get_average(arr: list[int], k: int, l: int) -> float:
-    index_k = arr.index(k)
-    index_l = arr.index(l)
-    arr_segment = arr[index_k:index_l + 1]
-    sum_segment = sum(arr_segment)
-    result = sum_segment / len(arr_segment)
-    print("Среднее арифметечское отрезка", result)
-    return result
+# def get_average(arr: list[int], k: int, l: int) -> float:
+#     index_k = arr.index(k)
+#     index_l = arr.index(l)
+#     arr_segment = arr[index_k:index_l + 1]
+#     sum_segment = sum(arr_segment)
+#     result = sum_segment / len(arr_segment)
+#     print("Среднее арифметечское отрезка", result)
+#     return result
 
-get_average([1, 2, 3, 4, 5, 6, 7, 8], 2, 6)
+# get_average([1, 2, 3, 4, 5, 6, 7, 8], 2, 6)
+
+# Получить сумму чисел на отрезках до K и от L
+# def get_sum_by_segments(arr: list[int], k: int, l: int) -> int:
+#     index_k = arr.index(k)
+#     index_l = arr.index(l) + 1
+#     segment_k = arr[0:index_k]
+#     segment_l = arr[index_l:len(arr)]
+#     result = sum(segment_l) + sum(segment_k)
+#     print(f"Сумма отрезков до {k} и от {l}:", result)
+#     return result
+
+# get_sum_by_segments([1, 2, 3, 4, 5, 6, 7, 8], 5, 6)
