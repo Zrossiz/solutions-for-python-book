@@ -407,3 +407,17 @@ from typing import List
 #     print('Количество двузначных чисел кратных 3:', count)
 
 # get_count_nums_multiplies_three()
+
+# Дано натуральное число n. Найти сумму s = 2/5 + 2/9...
+# def get_sum(n: int) -> float:
+#     sum = 0
+#     cur_divider = 5
+
+#     for num in range(n):
+#         sum += 2 / cur_divider
+#         cur_divider += 4
+    
+#     print(sum)
+#     return sum
+
+# get_sum(3)
