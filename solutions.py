@@ -381,3 +381,19 @@ from typing import List
 #         print(f"{num}: {num**2}")
 
 # get_squares_of_numbers(0, 10, 2)
+
+# Составить программу, которая находит и выводит на печать все четрыхзначные числа
+# abcd, для которых выполняются след. условия: a, b, c, d - разные числа
+# и ab - cd = a + b + c + d
+# def get_solution():
+#     for num in range(1000, 10000):
+#         a, b, c, d = map(int, str(num))
+#         nums_arr = [a, b, c, d]
+        
+#         set_of_uniq_nums = set(nums_arr)
+
+#         if len(nums_arr) == len(set_of_uniq_nums):
+#             if int(str(f"{nums_arr[0]}{nums_arr[1]}")) - int(str(f"{nums_arr[2]}{nums_arr[3]}")) == sum(nums_arr):
+#                 print(num)
+
+# get_solution()
