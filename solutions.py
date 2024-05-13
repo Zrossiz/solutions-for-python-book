@@ -439,3 +439,16 @@ from typing import List
 #     return nums_arr
 
 # get_fibonacci_number(10)
+
+# Посчитать сложный процент при вкладе в банк
+# def get_sum(s: int, p: int):
+#     cur_sum = s
+#     percent = p / 100 + 1
+#     for num in range(1, 100):
+#         print(num, round(cur_sum))
+#         cur_sum = cur_sum * percent
+#         if s * 3 < cur_sum:
+#             print("Сумма утроится к", num, "году")
+#             break
+
+# get_sum(5000, 20)
