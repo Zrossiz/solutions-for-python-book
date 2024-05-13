@@ -397,3 +397,13 @@ from typing import List
 #                 print(num)
 
 # get_solution()
+
+# Подсчитать количество двузначных чисел, кратных трем
+# def get_count_nums_multiplies_three():
+#     count = 0
+#     for num in range(10, 100):
+#         if num % 3 == 0:
+#             count += 1
+#     print('Количество двузначных чисел кратных 3:', count)
+
+# get_count_nums_multiplies_three()
