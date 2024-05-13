@@ -421,3 +421,21 @@ from typing import List
 #     return sum
 
 # get_sum(3)
+
+# Найти число Фибоначи и посчитать сумму первых n чисел
+# def get_fibonacci_number(n: int) -> list[int]:
+#     nums_arr = []
+
+#     for index, num in enumerate(range(n)):
+#         if len(nums_arr) == 0 or len(nums_arr) == 1:
+#             nums_arr.append(num)
+#         else:
+#             new_num = nums_arr[index - 1] + nums_arr[index - 2]
+#             nums_arr.append(new_num)
+    
+#     print(f"Числа фибоначи до {n}", nums_arr)
+#     print(f"Сумма чисел до {n}:", sum(nums_arr))
+
+#     return nums_arr
+
+# get_fibonacci_number(10)
