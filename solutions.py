@@ -452,3 +452,12 @@ from typing import List
 #             break
 
 # get_sum(5000, 20)
+
+# Найти первый неповторяющийся символ в строке
+# def get_first_uniq_symbol(string: str):
+#     for symbol in string:
+#         if string.index(symbol) == string.rindex(symbol):
+#             print(symbol)
+#             break
+
+# get_first_uniq_symbol('123214')
