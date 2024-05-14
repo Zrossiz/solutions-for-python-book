@@ -647,3 +647,14 @@ from typing import List
 #     return result
 
 # print(get_next_letter("abcdz"))
+
+# Заменить все буквы на порядковые номера в алфавите
+# def switch_to_numbers(string: str) -> str:
+#     result = ""
+
+#     for char in string:
+#         result = result + str(ord(char) - ord('a') + 1)
+    
+#     return result
+
+# print(switch_to_numbers('ac'))
