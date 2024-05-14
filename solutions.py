@@ -507,3 +507,16 @@ from typing import List
 #     return ' '.join(strings_arr)
 
 # print(get_reverse_sentence("три;;;два;один"))
+
+# Вывести строку, содержащую символы строки S, между которыми вставлено по N символов "#".
+# def update_string(string: str, n: int) -> str:
+#     insert_n_string = '#' * n
+#     symbols_arr = []
+
+#     for symbol in string:
+#         if symbol != ' ':
+#             symbols_arr.append(symbol)
+
+#     return insert_n_string.join(symbols_arr)
+
+# print(update_string('123 dmk2l', 2))
