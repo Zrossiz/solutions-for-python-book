@@ -547,3 +547,22 @@ from typing import List
 #     return result
 
 # print(replace_all_occurrences('один два три один', 'один', 'четыре'))
+
+
+# Получить строку с перевернутыми словами
+# def reverse_words_in_sentece(sentence: str) -> str:
+#     splited_sentence = sentence.split()
+#     reversed_strings_arr = []
+
+#     for word in splited_sentence:
+#         reversed_word = ''
+#         for char in word:
+#             reversed_word = char + reversed_word
+
+#         reversed_strings_arr.append(reversed_word)
+
+#     result = ' '.join(reversed_strings_arr)
+#     return result
+
+
+# print(reverse_words_in_sentece('один два три'))
