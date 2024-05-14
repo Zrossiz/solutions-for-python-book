@@ -614,3 +614,10 @@ from typing import List
 
 # print(replace_occurrence_character_in_string("привет как дела папа"))
 
+# Вывести самое длинное слово в предложении
+# def get_longest_word(sentence: str) -> str:
+#     splitted_sentence = sentence.split()
+#     max_length_word = max(splitted_sentence, key=len)
+#     return max_length_word
+
+# print(get_longest_word("привет как дела хорошо семьсем"))
