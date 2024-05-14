@@ -598,3 +598,19 @@ from typing import List
 #         return sentence + "ly"
     
 # print(add_ing("22"))
+
+# Получить строку, в которой все вхождения ее первого символа были заменаны на $, кроме первого
+# def replace_occurrence_character_in_string(string: str) -> str:
+#     replace_to = string[0]
+#     result = ''
+    
+#     for index, symbol in enumerate(string):
+#         if symbol == replace_to and index != 0:
+#             result = result + "$"
+#         else: 
+#             result = result + symbol
+    
+#     return result
+
+# print(replace_occurrence_character_in_string("привет как дела папа"))
+
