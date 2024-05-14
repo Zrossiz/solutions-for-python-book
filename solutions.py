@@ -566,3 +566,14 @@ from typing import List
 
 
 # print(reverse_words_in_sentece('один два три'))
+
+# Подсчитать количество слов в заданной строке, которые состоят из заглавных букв
+# def get_uppercase_words_count(sentence: str) -> int:
+#     splitted_string = sentence.split()
+#     count = 0
+#     for word in splitted_string:
+#         if word.swapcase() == word.lower():
+#             count += 1
+#     return count
+
+# print(get_uppercase_words_count('один ОДИН один ОДИН '))
