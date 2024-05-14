@@ -472,3 +472,9 @@ from typing import List
 #     return ' '.join(new_sentence)
 
 # print(change_case_first_and_last_symbol_of_every_word('один два три'))
+
+# Подсчитайте количество символов в заданной строке без пробелов
+# def get_count_of_symbols_without_spaces(sentence: str) -> int:
+#     return len(sentence.replace(' ', ''))
+
+# print(get_count_of_symbols_without_spaces('три два1 1'))
