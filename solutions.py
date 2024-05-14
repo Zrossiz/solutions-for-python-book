@@ -621,3 +621,10 @@ from typing import List
 #     return max_length_word
 
 # print(get_longest_word("привет как дела хорошо семьсем"))
+
+# Преобразовать заданную строку так, чтобы каждое слово состояло из заглавных букв
+# def get_uppercase_string(string: int) -> int:
+#     splitted_uppercase_string = string.upper().split()
+#     return " ".join(splitted_uppercase_string)
+
+# print(get_uppercase_string("Привет   как дела     "))
