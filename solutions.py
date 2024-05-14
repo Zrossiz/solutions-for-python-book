@@ -485,3 +485,18 @@ from typing import List
 #     return extension
 
 # print(get_extension('C:\Folder\Subfolder\12sw\filename.txt'))
+
+# Получить самое короткое слово предложения
+# def get_shortest_word_in_sentence(sentence: str) -> str:
+#     splitted_sentence = sentence.split()
+#     nums_arr = []
+
+#     for word in splitted_sentence:
+#         nums_arr.append(len(word))
+
+#     min_length_word_index = nums_arr.index(min(nums_arr))
+
+#     return splitted_sentence[min_length_word_index]
+
+# print("Наименьшая строка в предложении:", get_shortest_word_in_sentence('один два тричетыре'))
+    
