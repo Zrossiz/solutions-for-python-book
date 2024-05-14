@@ -520,3 +520,19 @@ from typing import List
 #     return insert_n_string.join(symbols_arr)
 
 # print(update_string('123 dmk2l', 2))
+
+# Зашифровать строку, состяющую из английских слов, разделенных запятыми
+# def encrypt_string(string: str) -> str:
+#     encrypted_string = ''
+
+#     for index, symbol in enumerate(string):
+#         if index % 2 != 0:
+#             encrypted_string = encrypted_string + symbol
+        
+#     for index, symbol in enumerate(string[::-1]):
+#         if index % 2 == 0:
+#             encrypted_string = encrypted_string + symbol
+    
+#     return encrypted_string
+
+# print(encrypt_string('одиннадцать'))
