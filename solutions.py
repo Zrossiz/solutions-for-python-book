@@ -587,3 +587,14 @@ from typing import List
 #     return result
 
 # print(delete_odd_symbols("один два"))
+
+# Добавить ing в конце строки
+# def add_ing(sentence: str):
+
+#     if len(sentence) < 3:
+#         return sentence
+    
+#     if len(sentence.split("ing")) == 2:
+#         return sentence + "ly"
+    
+# print(add_ing("22"))
