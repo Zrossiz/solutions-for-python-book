@@ -478,3 +478,10 @@ from typing import List
 #     return len(sentence.replace(' ', ''))
 
 # print(get_count_of_symbols_without_spaces('три два1 1'))
+
+# Получить расширение файла
+# def get_extension(path: str) -> str:
+#     extension = path.split('\\')[-1].split('.')[1]
+#     return extension
+
+# print(get_extension('C:\Folder\Subfolder\12sw\filename.txt'))
