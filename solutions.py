@@ -672,3 +672,16 @@ from typing import List
 #         return 'Not palindrom'
     
 # print(get_palindrom('abba abba1'))
+
+# Поменять местами минимальный и максимальный элементы массива
+# def switch_max_and_min_nums(arr: list[int]) -> list[int]:
+#     min_num = min(arr)
+#     max_num = max(arr)
+#     min_index = arr.index(min_num)
+#     max_index = arr.index(max_num)
+
+#     arr[min_index] = max_num
+#     arr[max_index] = min_num
+#     return arr
+
+# print(switch_max_and_min_nums([1, 2, 3]))
