@@ -536,3 +536,14 @@ from typing import List
 #     return encrypted_string
 
 # print(encrypt_string('одиннадцать'))
+
+# Заменить все вхождения заданного слова в строке на другое заданное слово
+# def replace_all_occurrences(string: str, target: str, replaceable: str) -> str:
+#     strings_arr = string.split(' ')
+#     for index, word in enumerate(strings_arr):
+#         if word == target:
+#             strings_arr[index] = replaceable
+#     result = ' '.join(strings_arr)
+#     return result
+
+# print(replace_all_occurrences('один два три один', 'один', 'четыре'))
