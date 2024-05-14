@@ -628,3 +628,22 @@ from typing import List
 #     return " ".join(splitted_uppercase_string)
 
 # print(get_uppercase_string("Привет   как дела     "))
+
+# Получить строку, в которой все буквы замененына след букву алфавита
+# def get_next_letter(string: str) -> str:
+#     result = ""
+#     for char in string:
+#         if char == 'z' or char == 'Z':
+#             result += 'a'
+#         elif char.isalpha():
+#             next_char_code = ord(char) + 1
+#             if char.isupper():
+#                 next_char = chr(next_char_code).upper()
+#             else:
+#                 next_char = chr(next_char_code)
+#             result += next_char
+#         else:
+#             result += char
+#     return result
+
+# print(get_next_letter("abcdz"))
