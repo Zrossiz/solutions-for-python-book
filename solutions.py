@@ -461,3 +461,14 @@ from typing import List
 #             break
 
 # get_first_uniq_symbol('123214')
+
+# Перевести в верхний регистр первую и последнюю букву каждого слова
+# def change_case_first_and_last_symbol_of_every_word(sentence: str):
+#     splitted_sentence = sentence.split(' ')
+#     new_sentence = []
+#     for word in splitted_sentence:
+#         new_word = word[0].upper() + word[1:-1] + word[-1].upper()
+#         new_sentence.append(new_word)
+#     return ' '.join(new_sentence)
+
+# print(change_case_first_and_last_symbol_of_every_word('один два три'))
