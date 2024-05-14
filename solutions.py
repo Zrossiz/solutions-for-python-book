@@ -500,3 +500,10 @@ from typing import List
 
 # print("Наименьшая строка в предложении:", get_shortest_word_in_sentence('один два тричетыре'))
     
+# Перевернуть порядок слов в строке
+# def get_reverse_sentence(sentence: str) -> str:
+#     strings_arr = sentence.replace(';', ' ').split()
+#     strings_arr.reverse()
+#     return ' '.join(strings_arr)
+
+# print(get_reverse_sentence("три;;;два;один"))
