@@ -685,3 +685,18 @@ from typing import List
 #     return arr
 
 # print(switch_max_and_min_nums([1, 2, 3]))
+
+# Найти два соседних элемента, которые дают максимальную сумму
+# def get_max_neighboring_elements(arr: list[int]) -> list[int]:
+    
+#     sum_of_neighboring_elements = []
+
+#     for index, num in enumerate(arr):
+#         if index + 1 != len(arr):
+#             sum_of_neighboring_elements.append(
+#                 arr[index] + arr[index + 1])
+    
+#     max_num_index = sum_of_neighboring_elements.index(max(sum_of_neighboring_elements))
+#     return [arr[max_num_index], arr[max_num_index + 1]]
+    
+# print(get_max_neighboring_elements([10, 21, 3, 4, 52, 21]))
