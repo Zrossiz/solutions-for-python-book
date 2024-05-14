@@ -658,3 +658,17 @@ from typing import List
 #     return result
 
 # print(switch_to_numbers('ac'))
+
+# Получить палиндром
+# def get_palindrom(string: str) -> str:
+#     result = ''
+#     for char in string:
+#         result = char + result
+    
+#     print(result)
+#     if result == string:
+#         return 'Palindrom!'
+#     else:
+#         return 'Not palindrom'
+    
+# print(get_palindrom('abba abba1'))
