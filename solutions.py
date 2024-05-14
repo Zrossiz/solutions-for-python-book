@@ -577,3 +577,13 @@ from typing import List
 #     return count
 
 # print(get_uppercase_words_count('один ОДИН один ОДИН '))
+
+# Удалить символы, которые имеют нечетные значения индексов
+# def delete_odd_symbols(sentence: str) -> str:
+#     result = ""
+#     for index, symbol in enumerate(sentence):
+#         if index % 2 == 0:
+#             result = result + symbol
+#     return result
+
+# print(delete_odd_symbols("один два"))
