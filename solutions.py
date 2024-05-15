@@ -804,3 +804,21 @@ from typing import List
 #     return sorted(result)
 
 # print(sort_double_digits([1, 2, 80, 10, 70, 10, 99, 100]))
+
+# Отсортировать все двузначные числа по возрастнию последней цифры
+# def sort_double_digits_by_last_char(arr: list[int]) -> list[int]:
+#     double_digits = []
+
+#     for num in arr:
+#         if num > 9 and num < 100:
+#             double_digits.append(num)
+
+#     def last_digit(number: int) -> int:
+#         return number % 10
+    
+#     sorted_nums = sorted(double_digits, key=last_digit)
+#     return sorted_nums
+
+# print(sort_double_digits_by_last_char([1, 2, 81, 12, 73, 16, 99, 100]))
+
+    
