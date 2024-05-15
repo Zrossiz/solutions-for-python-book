@@ -792,3 +792,15 @@ from typing import List
 #     return sorted_list
     
 # print(get_sorted_list(["три", "четыре", "пять", "шесть", "восемь", "десять"]))
+
+# Отсортировать все двузначные числа массива
+# def sort_double_digits(arr: list[int]) -> list[int]:
+#     result = []
+
+#     for num in arr:
+#         if num > 9 and num < 100:
+#             result.append(num)
+    
+#     return sorted(result)
+
+# print(sort_double_digits([1, 2, 80, 10, 70, 10, 99, 100]))
