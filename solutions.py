@@ -725,3 +725,14 @@ from typing import List
 #     return count
 
 # print(get_mutually_opposed_count([1, -1, 2, -2, 3, -3, 33]))
+
+# Обнулить элементы между максимальным и минимальным элементом
+# def reset_elements(arr: list[int]) -> list[int]:
+#     max_num_index = arr.index(max(arr))
+#     min_num_index = arr.index(min(arr))
+#     for index, num in enumerate(arr):
+#         if index > min_num_index and index < max_num_index:
+#             arr[index] = 0
+#     return arr
+
+# print(reset_elements([10, 1, 2, 3, 11, 100, 1, 20]))
