@@ -762,3 +762,14 @@ from typing import List
 #     return sorted(positive_arr)
 
 # print(get_sorted_positive_nums([-1, 5, 2, 0, 10, -10, 1000, -1000]))
+
+# Получить все положительные числа по убыванию
+# def get_reverse_sorted_positive_nums(arr: list[int]) -> list[int]:
+#     positive_arr = []
+
+#     for num in arr:
+#         if num >= 0:
+#             positive_arr.append(num)
+#     return sorted(positive_arr, reverse=True)
+
+# print(get_reverse_sorted_positive_nums([-1, 5, 2, 0, 10, -10, 1000, -1000]))
