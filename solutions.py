@@ -773,3 +773,15 @@ from typing import List
 #     return sorted(positive_arr, reverse=True)
 
 # print(get_reverse_sorted_positive_nums([-1, 5, 2, 0, 10, -10, 1000, -1000]))
+
+# Выбрать нечетные числа на нечетных позициях по убыванию
+# def get_odd_reverse_nums(arr: list[int]) -> list[int]:
+#     odd_nums = []
+
+#     for index, num in enumerate(arr):
+#         if index % 2 == 0:
+#             odd_nums.append(num)
+
+#     return sorted(odd_nums, reverse=True)
+
+# print(get_odd_reverse_nums([-1, 5, 2, 500, 200, 400, 0, 10, -10, 1000, -1000]))
