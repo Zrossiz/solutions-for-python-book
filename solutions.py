@@ -700,3 +700,15 @@ from typing import List
 #     return [arr[max_num_index], arr[max_num_index + 1]]
     
 # print(get_max_neighboring_elements([10, 21, 3, 4, 52, 21]))
+
+# Найти произведение всех элементов списка, расположенных српава от максимального элемента
+# def get_multiplying_numbers(arr: list[int]) -> int:
+#     index_max_num = arr.index(max(arr))
+#     result = 1 
+
+#     for num in arr[index_max_num + 1 :]:
+#         result *= num
+
+#     return result
+
+# print(get_multiplying_numbers([1, 2, 11, 2, 2, 2, 10]))
