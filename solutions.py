@@ -785,3 +785,10 @@ from typing import List
 #     return sorted(odd_nums, reverse=True)
 
 # print(get_odd_reverse_nums([-1, 5, 2, 500, 200, 400, 0, 10, -10, 1000, -1000]))
+
+# Отсортировать список по длине строк от самой короткой к самой длинной
+# def get_sorted_list(arr: list[str]) -> list[str]:
+#     sorted_list = sorted(arr, key=len)
+#     return sorted_list
+    
+# print(get_sorted_list(["три", "четыре", "пять", "шесть", "восемь", "десять"]))
