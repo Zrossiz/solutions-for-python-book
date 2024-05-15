@@ -736,3 +736,18 @@ from typing import List
 #     return arr
 
 # print(reset_elements([10, 1, 2, 3, 11, 100, 1, 20]))
+
+# Сформировать список длинной N, первый элемент которого = A, каждый последующий больше предыдущего на B
+# def generate_list(n: int, a: int, b:int):
+#     arr = []
+
+#     for num in range(n):
+#         if num == 0:
+#             arr.append(a)
+#         else:
+#             incremented_num = arr[-1] + b
+#             arr.append(incremented_num)
+    
+#     return arr
+
+# print(generate_list(10, 1, 2))
