@@ -712,3 +712,16 @@ from typing import List
 #     return result
 
 # print(get_multiplying_numbers([1, 2, 11, 2, 2, 2, 10]))
+
+# Найти количество взаимо противоположных пар
+# def get_mutually_opposed_count(arr: list[int]) -> int:
+#     count = 0
+
+#     for num in arr:
+#         if -num in arr:
+#             arr.pop(arr.index(-num))
+#             count += 1
+    
+#     return count
+
+# print(get_mutually_opposed_count([1, -1, 2, -2, 3, -3, 33]))
