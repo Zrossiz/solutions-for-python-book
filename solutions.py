@@ -821,4 +821,18 @@ from typing import List
 
 # print(sort_double_digits_by_last_char([1, 2, 81, 12, 73, 16, 99, 100]))
 
+# Отсортировать двузначные числа по убыванию первой цифры
+# def sort_double_digits_by_first_char(arr: list[int]) -> list[int]:
+#     double_digits = []
+
+#     for num in arr:
+#         if num > 9 and num < 100:
+#             double_digits.append(num)
+        
+#     def first_digit(number: int) -> int:
+#         return number // 10
     
+#     sorted_nums = sorted(double_digits, key=first_digit)
+#     return sorted_nums
+
+# print(sort_double_digits_by_first_char([21, 22, 1, 2, 81, 12, 73, 16, 99, 100]))
