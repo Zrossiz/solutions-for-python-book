@@ -982,3 +982,27 @@ from typing import List
 # ]
 
 # print(switch_rows(matrix))
+
+# Отзеркалить матрицу
+# def mirror_the_matrix(matrix: list[list[int]]) -> list[list[int]]:
+#     mirror_matrix = []
+
+#     for row in matrix:
+#         mirror_row = row[::-1]
+#         mirror_matrix = [mirror_row] + mirror_matrix
+
+#     for row in mirror_matrix:
+#         print(row)
+
+#     return mirror_matrix
+
+# matrix = [
+#     [1, 3, 5],
+#     [-500, 9, 11],
+#     [13, 15, 12],
+#     [10, 50, 1000],
+#     [1, 4, 8]
+# ]
+
+# mirror_the_matrix(matrix)
+
