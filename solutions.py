@@ -951,5 +951,34 @@ from typing import List
 
 # print(switch_min_num_in_every_row(matrix))
 
-        
-        
+# Поменять строки местами, содержащие минимальный и максимальный элемент матрицы
+# def switch_rows(matrix: list[list[int]]) -> list[list[int]]:
+#     max_num = float('-inf') # Начальное значение -бесконечность
+#     max_num_index = 0
+#     min_num = float('inf') # Начальное значение +бесконечность
+#     min_num_index = 0
+
+#     for index, row in enumerate(matrix):
+#         max_row = max(row)
+#         min_row = min(row)
+
+#         if max_row > max_num:
+#             max_num = max_row
+#             max_num_index = index
+
+#         if min_row < min_num:
+#             min_num = min_row
+#             min_num_index = index
+
+#     matrix[min_num_index], matrix[max_num_index] = matrix[max_num_index], matrix[min_num_index]
+#     return matrix
+
+# matrix = [
+#     [1, 3, 5],
+#     [-500, 9, 11],
+#     [13, 15, 12],
+#     [10, 50, 1000],
+#     [1, 4, 8]
+# ]
+
+# print(switch_rows(matrix))
