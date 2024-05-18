@@ -1006,3 +1006,30 @@ from typing import List
 
 # mirror_the_matrix(matrix)
 
+# Удалить строку матрицы с минимальным элементом
+# def delete_row(matrix: list[list[int]]) -> list[list[int]]:
+#     min_num = float('inf')
+#     min_num_row_index = float('inf')
+
+#     for index, row in enumerate(matrix):
+#         min_num_in_row = min(row)
+#         if min_num_in_row < min_num:
+#             min_num = min_num_in_row
+#             min_num_row_index = index
+    
+#     matrix.pop(min_num_row_index)
+    
+#     for row in matrix:
+#         print(row)
+
+#     return matrix
+
+# matrix = [
+#     [1, 3, 5],
+#     [-500, 9, 11],
+#     [13, 15, 12],
+#     [10, 50, -1000],
+#     [1, 4, 8]
+# ]
+
+# delete_row(matrix)
