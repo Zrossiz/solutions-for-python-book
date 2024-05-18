@@ -890,3 +890,20 @@ from typing import List
 #     return [arr[sorted_max[0]], arr[sorted_max[1]], arr[sorted_min[0]], arr[sorted_min[1]]]
 
 # print(max_and_min_nums([100, 50, 20, 21, 54, 89, 1, 4, 76]))
+
+# Получить среднее арифметическое нечетных элементов, кроме отрезка от k до l
+# def get_average(arr: list[int], k: int, l: int) -> float:
+#     sum = 0
+#     count_of_elems = 0
+
+#     for index, num in enumerate(arr):
+#         if k <= index <= l and index % 2 != 0:
+#             sum += num
+#             count_of_elems += 1
+
+#     if sum == 0:
+#         return 0
+
+#     return sum / count_of_elems
+
+# print(get_average([1, 2, 3, 4, 5, 6, 7, 8, 9], 3, 5))
