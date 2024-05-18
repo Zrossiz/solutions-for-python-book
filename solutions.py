@@ -869,3 +869,24 @@ from typing import List
 #     return result
 
 # print(get_sorted_list([100, 50, 20, 21, 54, 89, 1, 4, 76]))
+
+# Получить два максимальных числа и два минимальных из массива
+# def max_and_min_nums(arr: list[int]) -> list[int]:
+#     list = arr[:]
+
+#     max_values_index = []
+#     min_values_index = []
+
+#     max_values_index.append(list.index(max(list)))
+#     min_values_index.append(list.index(min(list)))
+#     list.pop(max_values_index[0])
+#     list.pop(min_values_index[0])
+#     max_values_index.append(list.index(max(list)))
+#     min_values_index.append(list.index(min(list)))
+
+#     sorted_max = sorted(max_values_index, reverse=True)
+#     sorted_min = sorted(min_values_index, reverse=True)
+
+#     return [arr[sorted_max[0]], arr[sorted_max[1]], arr[sorted_min[0]], arr[sorted_min[1]]]
+
+# print(max_and_min_nums([100, 50, 20, 21, 54, 89, 1, 4, 76]))
