@@ -1053,3 +1053,32 @@ from typing import List
 
 
 # get_mirror_horizontal_matrix(matrix)
+
+# Продублировать строку с максимльным значением в матрице
+# def get_matrix_with_duplicate_max_num_row(matrix: list[list[int]]) -> list[list[int]]:
+#     max_num = float('-inf')
+#     max_num_index_row = float('-inf')
+
+#     for index, row in enumerate(matrix):
+#         max_num_row = max(row)
+
+#         if max_num_row > max_num:
+#             max_num = max_num_row
+#             max_num_index_row = index
+    
+#     matrix.insert(max_num_index_row + 1, matrix[max_num_index_row])
+
+#     for row in matrix:
+#         print(row)
+
+#     return matrix
+
+# matrix = [
+#     [1, 3, 5],
+#     [-500, 9, 11],
+#     [13, 15, 12],
+#     [10, 50, -1000],
+#     [1, 4, 8]
+# ]
+
+# get_matrix_with_duplicate_max_num_row(matrix)
