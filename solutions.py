@@ -1082,3 +1082,27 @@ from typing import List
 # ]
 
 # get_matrix_with_duplicate_max_num_row(matrix)
+
+# Найти количество элементов, которые больше среднего арифметического строки
+# def get_count_nums_than_greater_average_of_row(matrix: list[list[int]]) -> list[list[int]]:
+    
+#     for index, row in enumerate(matrix):
+#         average_row = sum(row) / len(row)
+#         count = 0
+#         for num in row:
+#             if num > average_row:
+#                 count += 1
+        
+#         print(f"В строке {index + 1} количество элементов больше среднего арифметического - {count}")
+    
+#     return matrix
+
+# matrix = [
+#     [1, 3, 5, 6, 8, 10, 12],
+#     [1, 9, 11, 2, 3, 4],
+#     [13, 15, 12],
+#     [10, 50, -1000],
+#     [1, 4, 8]
+# ]
+
+# get_count_nums_than_greater_average_of_row(matrix)
