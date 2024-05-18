@@ -1033,3 +1033,23 @@ from typing import List
 # ]
 
 # delete_row(matrix)
+
+# Отразить матрицу горизонтально
+# def get_mirror_horizontal_matrix(matrix: list[list[int]]) -> list[list[int]]:
+#     mirror_matrix = []
+#     for row in matrix:
+#         mirror_matrix = [row] + mirror_matrix
+    
+#     for row in mirror_matrix:
+#         print(row)
+
+# matrix = [
+#     [1, 3, 5],
+#     [-500, 9, 11],
+#     [13, 15, 12],
+#     [10, 50, -1000],
+#     [1, 4, 8]
+# ]
+
+
+# get_mirror_horizontal_matrix(matrix)
