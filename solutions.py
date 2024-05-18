@@ -907,3 +907,27 @@ from typing import List
 #     return sum / count_of_elems
 
 # print(get_average([1, 2, 3, 4, 5, 6, 7, 8, 9], 3, 5))
+
+# Найти номер столбика, в котором только нечетные числа
+# def get_num_of_column(matrix: list[list[int]]) -> int:
+#     rows = len(matrix)
+#     columns = len(matrix[0])
+
+#     for column in range(columns):
+#         all_odd = True
+#         for row in range(rows):
+#             if matrix[row][column] % 2 == 0:
+#                 all_odd = False
+#                 break
+#         if all_odd:
+#             return column + 1
+
+#     return 0
+
+# matrix = [
+#     [1, 3, 5],
+#     [7, 9, 11],
+#     [13, 15, 17]
+# ]
+
+# print(get_num_of_column(matrix))
