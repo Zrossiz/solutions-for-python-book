@@ -931,3 +931,25 @@ from typing import List
 # ]
 
 # print(get_num_of_column(matrix))
+
+# Поменять местами минимальный и максимальный элемент в каждой строке
+# def switch_min_num_in_every_row(matrix: list[list[int]]) -> list[list[int]]:
+#     for row in matrix:
+#         max_elem_num = max(row)
+#         min_elem_num = min(row)
+#         max_elem_index = row.index(max_elem_num)
+#         min_elem_index = row.index(min_elem_num)
+#         row[min_elem_index] = max_elem_num
+#         row[max_elem_index] = min_elem_num
+#     return matrix
+
+# matrix = [
+#     [1, 3, 5],
+#     [7, 9, 11],
+#     [13, 15, 12]
+# ]
+
+# print(switch_min_num_in_every_row(matrix))
+
+        
+        
