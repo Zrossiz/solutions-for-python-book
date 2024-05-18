@@ -843,3 +843,29 @@ from typing import List
 #     return sorted_arr
 
 # print(get_sorted_list(['б', 'а', 'ф', 'ы', 'я', 'ч']))
+
+# Получить все двузначные числа и отсортировать их по возрастанию суммы цифр
+# def get_sorted_list(arr: list[int]) -> list[int]:
+#     double_digits = []
+#     sum_of_nums = []
+#     result = []
+
+#     for num in arr:
+#         if num > 9 and num < 100:
+#             double_digits.append(num)
+
+#             first_digit = num // 10
+#             second_digit = num % 10
+#             sum_of_nums.append(first_digit + second_digit)
+    
+#     for sum in sorted(sum_of_nums):
+#         for double_digit_num in double_digits:
+#             first_digit = double_digit_num // 10
+#             second_digit = double_digit_num % 10
+
+#             if sum == first_digit + second_digit:
+#                 result.append(double_digit_num)
+
+#     return result
+
+# print(get_sorted_list([100, 50, 20, 21, 54, 89, 1, 4, 76]))
