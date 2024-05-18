@@ -836,3 +836,10 @@ from typing import List
 #     return sorted_nums
 
 # print(sort_double_digits_by_first_char([21, 22, 1, 2, 81, 12, 73, 16, 99, 100]))
+
+# Отсортировать список по перевернутому алфавиту
+# def get_sorted_list(arr: list[int]) -> list[int]:
+#     sorted_arr = sorted(arr, key=str.lower, reverse=True)
+#     return sorted_arr
+
+# print(get_sorted_list(['б', 'а', 'ф', 'ы', 'я', 'ч']))
