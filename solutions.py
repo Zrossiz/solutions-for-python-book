@@ -1106,3 +1106,27 @@ from typing import List
 # ]
 
 # get_count_nums_than_greater_average_of_row(matrix)
+
+# Поменять местами левую верхнюю и правую нижнюю четверти матрицы
+# def switch_quarter(matrix: list[list[int]]) -> list[list[int]]:
+#     len_of_row = len(matrix)
+#     len_of_column = len(matrix[0])
+    
+#     mid_row = len_of_row // 2
+#     mid_column = len_of_column // 2
+
+#     for i in range(mid_row):
+#         for j in range(mid_column):
+#             matrix[i][j], matrix[i + mid_row][j + mid_column] = matrix[i + mid_row][j + mid_column], matrix[i][j]
+
+#     for row in matrix:
+#         print(row)
+
+# matrix = [
+#     [ 1,   2,   3,  4],
+#     [ 5,   6,   7,  8],
+#     [ 9,  10,  11, 12],
+#     [13,  14,  15, 16]
+# ]
+
+# switch_quarter(matrix)
