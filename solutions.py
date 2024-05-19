@@ -1130,3 +1130,22 @@ from typing import List
 # ]
 
 # switch_quarter(matrix)
+
+# Для каждой строки матрицы с нечетными номерами найти среднее арифметическое
+# def get_average(matrix: list[list[int]]) -> list[list[int]]:
+
+#     for index, row in enumerate(matrix):
+#         if (index + 1) % 2 != 0:
+#             row_average = sum(row) / len(row)
+#             print(f"Среднее арифметическое для строки {index + 1}: {row_average}")
+    
+#     return matrix
+
+# matrix = [
+#     [ 1,   2,   3,  4],
+#     [ 5,   6,   7,  8],
+#     [ 9,  10,  11, 12],
+#     [13,  14,  15, 16]
+# ]
+
+# get_average(matrix)
