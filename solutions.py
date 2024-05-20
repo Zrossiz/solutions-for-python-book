@@ -1170,4 +1170,31 @@ from typing import List
 #     [ 9,  10,  11, 12],
 # ]
 
-# print(get_mux_sum_row(matrix)) 
+# print(get_mux_sum_row(matrix))
+
+# Перед строкой матрицы, содержащей минимальный элемент матрицы, вставить строку из нулей
+# def set_row_with_zeros(matrix: list[list[int]]) -> list[list[int]]:
+#     min_num = float('inf')
+#     min_num_row_index = float('inf')
+
+#     for index, row in enumerate(matrix):
+#         min_num_of_row = min(row)
+#         if min_num_of_row < min_num:
+#             min_num = min_num_of_row
+#             min_num_row_index = index
+
+#     matrix.insert(min_num_row_index, [0 for _ in range(len(matrix[0]))])
+
+#     for row in matrix:
+#         print(row)
+
+#     return matrix
+    
+# matrix = [
+#     [ 1,   2,   3,  4],
+#     [ 5,   6,   7,  8],
+#     [13,  14,  15, 16],
+#     [ 9,  10,  11, 12],
+# ]
+
+# set_row_with_zeros(matrix)
