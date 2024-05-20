@@ -1149,3 +1149,25 @@ from typing import List
 # ]
 
 # get_average(matrix)
+
+# Найти номер строки с наибольшей суммой элементов
+# def get_mux_sum_row(matrix: list[list[int]]) -> str:
+#     max_sum = float('-inf')
+#     max_sum_index_row = float('-inf')
+
+#     for index, row in enumerate(matrix):
+#         sum_of_row = sum(row)
+#         if sum_of_row > max_sum:
+#             max_sum = sum_of_row
+#             max_sum_index_row = index
+
+#     return f"Максимальное сумма строки матрицы - {max_sum}, индекс строки - {max_sum_index_row}"
+
+# matrix = [
+#     [ 1,   2,   3,  4],
+#     [ 5,   6,   7,  8],
+#     [13,  14,  15, 16],
+#     [ 9,  10,  11, 12],
+# ]
+
+# print(get_mux_sum_row(matrix)) 
