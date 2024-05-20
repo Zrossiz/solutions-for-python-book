@@ -1198,3 +1198,27 @@ from typing import List
 # ]
 
 # set_row_with_zeros(matrix)
+
+# Найти номер последней строки матрицы, содержащий только четные числа
+# def get_last_row_with_even_nums(matrix: list[list[int]]) -> int:
+#     index_of_row = 0
+
+#     for index, row in enumerate(matrix):
+#         is_matched = True
+#         for column in row:
+#             if column % 2 != 0:
+#                 is_matched = False
+            
+#         if is_matched:
+#             index_of_row = index
+
+#     return index_of_row + 1
+
+# matrix = [
+#     [ 1,   2,   3,  4],
+#     [ 5,   6,   7,  8],
+#     [10,  14,  121, 16],
+#     [ 10,  10,  11, 12],
+# ]
+
+# print(get_last_row_with_even_nums(matrix))
