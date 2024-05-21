@@ -1296,3 +1296,34 @@ from typing import List
 # ]
 
 # print(get_max_negative_elems_column_index(matrix))
+
+# Преобразовать матрицу, поменяв местами минимальный и максимальный элемент в каждом столбике
+# def swap_min_max_num_in_columns(matrix: list[list[int]]) -> list[list[int]]:
+#     num_rows: int = len(matrix)
+#     num_columns: int = len(matrix[0])
+
+#     for column in range(num_columns):
+#         min_index = 0
+#         max_index = 0
+        
+#         for row in range(num_rows):
+#             cur_elem = matrix[row][column]
+
+#             if cur_elem > matrix[max_index][column]:
+#                 max_index = row
+            
+#             if cur_elem < matrix[min_index][column]:
+#                 min_index = row
+        
+#         matrix[max_index][column], matrix[min_index][column] = matrix[min_index][column], matrix[max_index][column]
+#     return matrix
+
+
+# matrix = [
+#     [ 1,   2,  -3, 1],
+#     [ 5,   6,  -7, 2],
+#     [10,  14,  91, 3],
+#     [10,  10,  11, 4],   
+# ]
+
+# swap_min_max_num_in_columns(matrix)
