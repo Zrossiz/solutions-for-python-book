@@ -1268,3 +1268,31 @@ from typing import List
 # ]
 
 # switch_positive_columns(matrix)
+
+# Найти номер первого столбца, содержащего максимальное количество отрицательных чисел
+# def get_max_negative_elems_column_index(matrix: list[list[int]]) -> int:
+#     max_negative_num_column = 0
+#     index_negative_num_column = 0
+
+#     matrix_rows = len(matrix)
+#     matrix_columns = len(matrix[0])
+
+#     for index, column in enumerate(range(matrix_columns)):
+#         negative_count = 0
+#         for row in range(matrix_rows):
+#             if matrix[row][column] < 0:
+#                 negative_count += 1
+#         if max_negative_num_column < negative_count:
+#             max_negative_num_column = negative_count
+#             index_negative_num_column = index
+    
+#     return index_negative_num_column + 1
+    
+# matrix = [
+#     [ 1,   2,   -3, 1],
+#     [ 5,   6,   -7, 2],
+#     [10,  14,  121, -3],
+#     [ 10,  10,  11, 4], 
+# ]
+
+# print(get_max_negative_elems_column_index(matrix))
