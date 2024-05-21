@@ -1222,3 +1222,49 @@ from typing import List
 # ]
 
 # print(get_last_row_with_even_nums(matrix))
+
+# Поменять местами первый столбец и последний столбец, содержащий только положительные числа
+# def switch_positive_columns(matrix: list[list[int]]) -> list[list[int]]:
+
+#     def get_last_positive_column_index(matrix: list[list[int]]) -> int:
+#         matrix_rows = len(matrix)
+#         matrix_columns = len(matrix[0])
+#         last_positive_column_index = 0
+
+#         for index, column in enumerate(range(matrix_columns)):
+#             is_positive = True
+
+#             for row_item in range(matrix_rows):
+#                 if row_item < 0:
+#                     is_positive = False
+#                     break
+            
+#             if is_positive:
+#                 last_positive_column_index = index
+
+#         return last_positive_column_index
+    
+#     def switch_columns(
+#             matrix: list[list[int]],
+#             first_column: int,
+#             second_column: int
+#         ):
+#         for index_row, row in enumerate(matrix):
+#             matrix[index_row][first_column], matrix[index_row][second_column] = matrix[index_row][second_column], matrix[index_row][first_column]
+#         return matrix
+
+#     last_positive_index = get_last_positive_column_index(matrix)
+#     result = switch_columns(matrix, 0, last_positive_index)
+
+#     return result
+
+
+
+# matrix = [
+#     [ 1,   2,   3, 1],
+#     [ 5,   6,   7, 2],
+#     [10,  14,  121, -3],
+#     [ 10,  10,  11, 4],
+# ]
+
+# switch_positive_columns(matrix)
