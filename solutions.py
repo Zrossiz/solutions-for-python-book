@@ -1371,3 +1371,20 @@ from typing import List
 # result = mirror_main_diagonal(matrix)
 # for row in result:
 #     print(row)
+
+# Заменить все отрицательные элементы матрицы на положительные
+# def get_module_matrix(matrix: list[list[int]]) -> list[list[int]]:
+#     for index_row, row in enumerate(matrix):
+#         for index_column, column in enumerate(row):
+#             if column < 0:
+#                 matrix[index_row][index_column] = abs(column)
+#     return matrix
+# matrix = [
+#   [1, 2, 3],
+#   [4, -5, 6],
+#   [-7, 8, 9]
+# ]
+
+# result = get_module_matrix(matrix)
+# for row in result:
+#     print(row)
