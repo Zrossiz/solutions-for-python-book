@@ -1353,3 +1353,21 @@ from typing import List
 # result = delete_column_with_min_num(matrix)
 # for row in result:
 #     print(row)
+
+# Зеркально отразить элементы матрицы по главной диагонали (при этом поменяются местами строки и столбцы)
+# def mirror_main_diagonal(matrix: list[list[int]]) -> list[list[int]]:
+#     new_matrix: list[int] = []
+
+#     for row in matrix:
+#         new_matrix.append(row[::-1])
+    
+#     return new_matrix
+
+# matrix = [
+#   [1, 2, 3],
+#   [4, 5, 6],
+#   [7, 8, 9]
+# ]
+# result = mirror_main_diagonal(matrix)
+# for row in result:
+#     print(row)
