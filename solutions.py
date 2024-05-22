@@ -1327,3 +1327,29 @@ from typing import List
 # ]
 
 # swap_min_max_num_in_columns(matrix)
+
+# Удалить столбец, содержащий минимальный элемент матрицы
+# def delete_column_with_min_num(matrix: list[list[int]]) -> list[list[int]]:
+#     matrix_rows = len(matrix)
+#     matrix_columns = len(matrix[0])
+#     min_num = float('inf')
+#     min_num_column_index = 0
+
+#     for index, column in enumerate(range(matrix_columns)):
+#         for row in range(matrix_rows):
+#             if matrix[row][column] < min_num:
+#                 min_num = matrix[row][column]
+#                 min_num_column_index = index
+        
+#     new_matrix = [row[:min_num_column_index] + row[min_num_column_index + 1:] for row in matrix]
+#     return new_matrix
+
+# matrix = [
+#     [ 1,   2,  -3, 1],
+#     [ 5,   6,  -7, 2],
+#     [10,  -14,  91, 3],
+#     [10,  10,  11, 4],   
+# ]
+# result = delete_column_with_min_num(matrix)
+# for row in result:
+#     print(row)
