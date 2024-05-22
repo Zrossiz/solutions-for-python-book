@@ -1388,3 +1388,41 @@ from typing import List
 # result = get_module_matrix(matrix)
 # for row in result:
 #     print(row)
+
+# Поменять местами столбцы матрицы с наибольшим и наименьшим количеством отрицательных элементов
+# def switch_min_max_negative_nums_columns(matrix):
+#     matrix_rows = len(matrix)
+#     matrix_columns = len(matrix[0])
+#     max_negative_nums_in_column_count = 0
+#     max_negative_nums_in_column_index = 0
+#     min_negative_nums_in_column_count = 9999
+#     min_negative_nums_in_column_index = 0
+
+#     for column in range(matrix_columns):
+#         count_negative_nums = 0
+#         for row in range(matrix_rows):
+#             if matrix[row][column] < 0:
+#                 count_negative_nums += 1
+#         if max_negative_nums_in_column_count < count_negative_nums:
+#             max_negative_nums_in_column_count = count_negative_nums
+#             max_negative_nums_in_column_index = column
+
+#         if min_negative_nums_in_column_count > count_negative_nums:
+#             min_negative_nums_in_column_count = count_negative_nums
+#             min_negative_nums_in_column_index = column
+    
+#     for row in matrix:
+#         row[max_negative_nums_in_column_index], row[min_negative_nums_in_column_index] = row[min_negative_nums_in_column_index], row[max_negative_nums_in_column_index]
+
+#     return matrix
+  
+# matrix = [
+#   [1, 2, -3],
+#   [4, -5, -6],
+#   [-7, -8, -9],
+# ]
+
+# result = switch_min_max_negative_nums_columns(matrix)
+# for row in result:
+#     print(row)
+
