@@ -1,7 +1,7 @@
 import math
 import datetime
 import random
-from typing import List
+from typing import List, Tuple, Dict
 
 # Найти объем и площадь поверхности прямоугольного параллелепипеда 
 # def get_v(a, b, c):
@@ -1426,3 +1426,9 @@ from typing import List
 # for row in result:
 #     print(row)
 
+# Написать программу для создания словаря из кортежа
+# def from_tuple_to_dictionary() -> Dict[str, str]:
+#     init_tuple = (('key1', 'value1'), ('key2', 'value2'), ('key3', 'value3'))
+#     return dict(init_tuple)
+
+# print(from_tuple_to_dictionary())
