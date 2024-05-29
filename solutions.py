@@ -1477,3 +1477,16 @@ from typing import List, Tuple, Dict
 
 # sample_dict0 = {'a': 5, 'b': 2, 'c': 9, 'd': 1}
 # print(check_multiple_keys_in_object(sample_dict0, 'a', 'c', 'z'))
+
+# Написать программу для подсчета количества элементов в значениях словаря, которые представляют собой списки
+# def find_the_number_of_arrays_in_object(dict):
+#     count = 0
+
+#     for key, value in dict.items():
+#         if isinstance(value, list):
+#             count += 1
+
+#     return count
+
+# sample_dict0 = {'a': 5, 'b': 1, 'c': 9, 'd': [1, 2]}
+# print(find_the_number_of_arrays_in_object(sample_dict0))
