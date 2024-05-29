@@ -1445,3 +1445,19 @@ from typing import List, Tuple, Dict
 
 # sample_dict = {'a': 5, 'b': 2, 'c': 9, 'd': 1}
 # print(get_sorted_dictionary(sample_dict))
+
+# Объеденить два объекта и суммировать общие данные
+# def get_merged_dict(dict0, dict1):
+#     merged_dict = dict0.copy()
+
+#     for key, value in dict1.items():
+#         if key in merged_dict:
+#             merged_dict[key] += value
+#         else:
+#             merged_dict[key] = value
+    
+#     return merged_dict
+
+# sample_dict0 = {'a': 5, 'b': 2, 'c': 9, 'd': 1}
+# sample_dict1 = {'a': 8, 'b': 6, 'c': 1, 'd': 4, 'z': 4}
+# print(get_merged_dict(sample_dict0, sample_dict1))
