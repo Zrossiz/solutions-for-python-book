@@ -1432,3 +1432,16 @@ from typing import List, Tuple, Dict
 #     return dict(init_tuple)
 
 # print(from_tuple_to_dictionary())
+
+# Напишите программу для сортировки (по возрастанию и убыванию) словаря по значению
+# def get_sorted_dictionary(unsorted_dict):
+#     sorted_dict_asc = dict(sorted(unsorted_dict.items(), key=lambda item: item[1]))
+#     sorted_dict_desc = dict(sorted(unsorted_dict.items(), key=lambda item: item[1], reverse=True))
+#     result = {
+#         'asc': sorted_dict_asc,
+#         'desc': sorted_dict_desc
+#     }
+#     return result
+
+# sample_dict = {'a': 5, 'b': 2, 'c': 9, 'd': 1}
+# print(get_sorted_dictionary(sample_dict))
