@@ -1461,3 +1461,19 @@ from typing import List, Tuple, Dict
 # sample_dict0 = {'a': 5, 'b': 2, 'c': 9, 'd': 1}
 # sample_dict1 = {'a': 8, 'b': 6, 'c': 1, 'd': 4, 'z': 4}
 # print(get_merged_dict(sample_dict0, sample_dict1))
+
+# Проверить наличие нескольких ключей в объекте
+# def check_multiple_keys_in_object(dict, key0, key1, key2):
+#     result = {}
+#     if key0 in dict:
+#         result[key0] = dict[key0]
+#     if key1 in dict:
+#         result[key1] = dict[key1]
+#     if key2 in dict:
+#         result[key2] = dict[key2]
+#     if len(result) >= 1:
+#         return result
+#     else: return dict
+
+# sample_dict0 = {'a': 5, 'b': 2, 'c': 9, 'd': 1}
+# print(check_multiple_keys_in_object(sample_dict0, 'a', 'c', 'z'))
