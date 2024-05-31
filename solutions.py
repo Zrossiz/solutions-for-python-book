@@ -1490,3 +1490,20 @@ from typing import List, Tuple, Dict
 
 # sample_dict0 = {'a': 5, 'b': 1, 'c': 9, 'd': [1, 2]}
 # print(find_the_number_of_arrays_in_object(sample_dict0))
+
+# Объединить два словаря, отсортировать по значению, удалить все ключи, у которых свойство массив
+# def solution(obj1, obj2):
+#     merged_list = obj1 | obj2
+#     print("Merged: ", merged_list)
+#     without_arrays = {}
+#     for key, value in merged_list.items():
+#         if not isinstance(value, list):
+#             without_arrays[key] = value
+#     print("Without arrays: ", without_arrays)
+#     sorted_dict_desc = dict(sorted(without_arrays.items(), key=lambda item: item[1]))
+#     print("Sorted: ", sorted_dict_desc)
+
+
+# sample_dict0 = {'a': 5, 'b': 2, 'c': 9, 'd': 1}
+# sample_dict1 = {'f': 8, 'o': 6, 'z': 4, 'key': [1, 2]}
+# solution(sample_dict0, sample_dict1)
